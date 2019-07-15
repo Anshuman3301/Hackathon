@@ -41,7 +41,7 @@ public class Main
         else if(type==2)
         {
             DeluxeHamburger deluxeHamburger=new DeluxeHamburger();
-            System.out.println(deluxeHamburger.priceBaseBurger*number);
+            System.out.println(deluxeHamburger.orderDeluxe(number));
         }
         else
         {
