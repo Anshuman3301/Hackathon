@@ -15,7 +15,7 @@ public class Main
             BaseHamburger baseHamburger=new BaseHamburger();
             System.out.println("what additionals do you want");
             String order=scanner.next();
-            String[] orders=order.split(" ");
+            String[] orders=order.split(",");
             for(int i=0;i<orders.length;i++)
             {
                 if(orders[i].equals("lettuce"))
@@ -48,7 +48,7 @@ public class Main
             System.out.println("Tell the additionals (only 2)");
             String order= scanner.next();
             HealthyHamburger healthyHamburger=new HealthyHamburger();
-            String[] orders=order.split(" ");
+            String[] orders=order.split(",");
             for(int i=0;i<orders.length;i++)
             {
                 if(orders[i].equals("lettuce"))
